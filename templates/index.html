@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+        
+
+    </head>
+    <body>
+
+        <div class="main-container">
+            
+            <div class="flex-container">
+                <div class="menu item1">Home</div>
+                <div class="menu item2">About</div>
+                <div class="menu item3">Services</div>
+                <div class="menu item4">Doctors</div>
+                <div class="menu item5">Contact</div>
+            </div>
+
+            <div class="image-conatainer">
+                <img id="banner-image" src="https://images.squarespace-cdn.com/content/v1/5269fbd3e4b0eb2b76ccc1db/1600450850092-9QJNLVQVTE475IBBQP0Q/ke17ZwdGBToddI8pDm48kD3i-_0accf_N5I2nSfwJy57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5cXnumgNsVpJ4BTXsTGcnwUQKnh3BrgHlRwfCT2VrP47Q/how-to-get-into-pa-school.jpg?format=1500w">
+                <div class="banner-title">WE PROVIDE</div>
+                <div class="banner-subtitle">TOTAL HEALTH CARE SOLUTION</div>
+                <div class="banner-description">We Care For Your Smile</div>
+                                
+            </div>
+            <div class="skills-heading">
+                <div class="skill-title">
+                    EMERGENCY TEST
+                </div>
+            </div>
+            <div class="skill-container">
+                <div class="skill1">
+                    <div class="image">
+                        <img id="image" src="https://thumbs.dreamstime.com/z/malaria-test-blood-sample-positive-101647278.jpg">
+                    </div>
+                    
+                    <div id="skill-text" class="text">
+                        MALARIA              
+                           
+                    </div>
+                       
+                </div>
+
+                <div class="skill1">
+                    <div class="image">
+                        <img id="image" src="https://images.financialexpress.com/2020/11/corona-test.jpg">
+                    </div>
+                    <div id="skill-text" class="text">
+                        COVID-19 
+                        <a href="https://www.google.com/webhp?authuser=1">Test Sample </a> 
+                    </div>    
+                </div>
+
+                <div class="skill1">
+                    <div class="image">
+                        <img id="image" src="https://nce-content.s3.amazonaws.com/uploads/course/image/53/pneumonia-course.jpg">
+                    </div>
+                    <div id="skill-text" class="text">
+                        PNEUMONIA 
+                        <a href="https://www.google.com/webhp?authuser=1">Test Sample </a> 
+                    </div>    
+                </div>
+                
+            </div>
+
+            
+            <div class="portfolio-heading">
+                <div class="portfolio-title">
+                    Malaria Testing 
+                </div>
+            </div>
+            <hr>
+            <div class="testimonial">
+                <form action="http://127.0.0.1:5000/uploader" method="POST" enctype="multipart/form-data">
+                    <input type='file' name='file' onchange="readURL(this);" />
+                    <img id="blah" />
+                    <button type="submit">Submit & predict</button>
+                                             
+                </form>
+                <h2>{{ ss }}</h2>
+            </div>
+           
+
+        </div>
+
+    </body>
+</html>
