@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main-container{
+    width: 100%
+}
+
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+
+.menu{
+    min-width: 90px;
+    color: white;
+    font size: 1.8em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+
+}
+#banner-image{
+    width: 100%;
+}
+.banner-title{
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    font-size: 5em;
+    color: black;
+}
+.banner-subtitle{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+.banner-description{
+    position: absolute;
+    top: 67%;
+    left: 5%;
+    font-size: 2em;
+    color: black;
+}
+.skill-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content:center;
+}
+a:link{
+    color: green;
+    text-decoration: none;  /* this line we use to remove underline from the link */
+    padding: 6px;          /* padding and alignation and background color we are doing to give link the shape of a button*/
+    text-align:center;
+    font-size:large;
+    background-color: lightgoldenrodyellow;
+}
+#image{
+    width: 190px;
+    height: 170px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+#skill-text{
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 3em;
+}
+.skills-heading{
+    display: flex;
+    widows: 100%;
+    height: 185px;
+    color:black;
+    background-color:rgb(151, 221, 248);
+    font-size: 2em; 
+    margin-bottom: 40px;
+}
+.skill-title{
+    margin-left: 42%;
+    margin-top: 75px;
+}
+.portfolio-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    margin-top: 270px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.portfolio-title{
+    margin-left: 45%;
+    margin-top: 25px;
+}
+
+.portfolio-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#portfolioimg{
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+}
+.portfolio-desc{
+    margin-left: 20px;    
+}
+.portfolio-name{
+    font-size: 2em;
+    margin-left: 100px;
+}
+.portfolio-info{
+    font-size: 1.1em;
+    margin-left: 100px;
+    color: grey;
+}
+hr{
+    width: 50%;
+    align-self: center;
+}
+.testimonial{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.client-name{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    font-size: 2em;
+    margin-left: 45%;    
+}
+.client-designation{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    margin-left: 40%;
+
+}
+.client-testimonial{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    margin-left: 38%;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+ 
